@@ -11,4 +11,5 @@ test.js
 test.py
 main.py
 main_0.py
+.mypy_cache/
 ```
