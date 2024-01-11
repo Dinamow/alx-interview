@@ -10,5 +10,5 @@ tsconfig.json
 test.js
 test.py
 main.py
-[0-9]+-main.py
+main_0.py
 ```
