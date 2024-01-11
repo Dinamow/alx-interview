@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-from typing import List
 """canUnlockAll module"""
 
 
-def canUnlockAll(boxes: List[List[int]]) -> bool:
+def canUnlockAll(boxes):
     """canUnlockAll function
     Args:
         boxes (List[List[int]]): list of lists
     Returns:
         bool: True if all boxes can be opened, else False
     """
-    empty_boxes: int = 0
+    empty_boxes = 0
 
     if len(boxes) == 0:
         return False
@@ -18,7 +17,7 @@ def canUnlockAll(boxes: List[List[int]]) -> bool:
     if len(boxes) == 1:
         return True
 
-    result: List[int] = []
+    result = []
 
     for i in boxes[0]:
         result.append(i)
