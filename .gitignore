@@ -1,0 +1,14 @@
+__pycache__/
+.eslintrc.js
+package-lock.json
+package.json
+babel.config.js
+node_modules/
+webpack.config.js
+tsconfig.json
+.eslintrc.json
+test.js
+test.py
+main.py
+[0-9]+-main.py
+```
