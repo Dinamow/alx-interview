@@ -11,6 +11,7 @@ def canUnlockAll(boxes: List[List[int]]) -> bool:
         bool: True if all boxes can be opened, else False
     """
     empty_boxes: int = 0
+
     if len(boxes) == 0:
         return False
 
@@ -21,7 +22,6 @@ def canUnlockAll(boxes: List[List[int]]) -> bool:
 
     for i in boxes[0]:
         result.append(i)
-
     for i in result:
         if len(boxes[i]) > 0:
             for j in boxes[i]:
