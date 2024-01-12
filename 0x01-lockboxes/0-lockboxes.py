@@ -14,3 +14,4 @@ def canUnlockAll(boxes):
             stack.append(boxes[index])
             keys.add(index)
     return len(keys) == len(boxes)
+    
