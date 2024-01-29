@@ -7,7 +7,7 @@ def validUTF8(data):
     for i in data:
         binary = bin(i)
         try:
-            binary.to_bytes(1, 'big').decode()
+            eval(binary).to_bytes(1, 'big').decode()
         except OverflowError:
             return False
     return True
